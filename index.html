@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Menu</title>
+
+<style>
+    /****** Base Styles******/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.menu-content {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    border: 1px solid black;
+    background-color: brown;
+    margin-bottom: 15px;
+}
+
+.menu-content.content-1 {
+    background-color: brown;
+    color: black;
+}
+
+.menu-content.content-2 {
+    background-color: black;
+    color: white;
+}
+
+.menu-content.content-3 {
+    background-color: white;
+}
+
+.menu-title {
+    width: 25%;
+    height: 25px;
+    /*background-color: black;
+    color: white;*/
+    margin-left: 75%;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-title.menu-1 {
+    background-color: black;
+    color: white;
+}
+
+.menu-title.menu-2 {
+    background-color:white;
+    color: black;
+}
+
+.menu-title.menu-3 {
+    background-color: maroon;
+    color: white;
+}
+.menu-brief {
+    padding: 5px 20px 10px 20px;
+    font-weight: medium;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop view only **********/
+@media (min-width: 992px) {
+  .col-lg-4,.col-lg-6 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+}
+
+/********** Tablet view only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4,.col-md-6 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+
+  
+}
+
+/********** Mobile view only **********/
+@media (max-width: 767px) {
+  .col-ms-4,.col-ms-6 {
+    float: left;
+  }
+  .col-ms-4 {
+    width: 33.33%;
+  }
+  .col-ms-6 {
+    width: 50%;
+  }
+}
+
+</style>
+
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  
+    <div class="col-lg-4 col-md-6">
+    <div class="menu-content content-1">  
+        <div class="menu-title menu-1">Chicken</div>
+      <div class="menu-brief">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam, exercitationem, totam voluptatibus ducimus, vel recusandae maxime velit minima non quod necessitatibus iure omnis distinctio! Expedita aspernatur quo labore quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae soluta, nam illum quod eos vero maxime earum adipisci beatae magnam nihil qui quidem doloribus ullam a, eligendi neque eius?
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="menu-content content-2">  
+        <div class="menu-title menu-2">Beef</div>
+      <div class="menu-brief">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam, exercitationem, totam voluptatibus ducimus, vel recusandae maxime velit minima non quod necessitatibus iure omnis distinctio! Expedita aspernatur quo labore quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae soluta, nam illum quod eos vero maxime earum adipisci beatae magnam nihil qui quidem doloribus ullam a, eligendi neque eius?
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 third-1">
+    <div class="menu-content content-3">  
+        <div class="menu-title menu-3">Sushi</div>
+      <div class="menu-brief">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam, exercitationem, totam voluptatibus ducimus, vel recusandae maxime velit minima non quod necessitatibus iure omnis distinctio! Expedita aspernatur quo labore quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae soluta, nam illum quod eos vero maxime earum adipisci beatae magnam nihil qui quidem doloribus ullam a, eligendi neque eius?
+      </div>
+    </div>
+  </div>
+  
+   
+</div>
+
+
+</body>
+</html>
